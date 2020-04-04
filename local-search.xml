@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>美化</title>
+    <link href="/2020/04/02/%E7%BE%8E%E5%8C%96/"/>
+    <url>/2020/04/02/%E7%BE%8E%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/img/fleabass.jpg" srcset="/img/loading.gif" alt="fleabass"></p><p><embed src="//music.163.com/style/swf/widget.swf?sid=25843040&type=2&auto=1&width=320&height=66" width="340" height="86" allownetworking="all"><br><embed src="//music.163.com/style/swf/widget.swf?sid=1305364671&type=2&auto=1&width=320&height=66" width="340" height="86" allownetworking="all"><br>单独页面顶部大图</p><p>文章封面图片</p><p>单独音乐播放</p><p>代码高亮</p><pre><code class="python">import turtle,timedef drawPoint():    turtle.back(11)    turtle.right(90)    turtle.fd(50)    turtle.pendown()    turtle.circle(0.5)    turtle.penup()    turtle.back(50)    turtle.left(90)    turtle.fd(11)def drawGap():      #绘制数码管间隔    turtle.penup()    turtle.fd(5)def drawLine(draw):     #绘制单段数码管    drawGap()    turtle.pendown() if draw else turtle.penup()    turtle.fd(40)    drawGap()    turtle.right(90)def drawDigit(digit):   #根据数字绘制七段数码管    drawLine(True) if digit in [2,3,4,5,6,8,9]else drawLine(False)    drawLine(True) if digit in [0,1,3,4,5,6,7,8,9] else drawLine(False)    drawLine(True) if digit in [0,2,3,5,6,8,9] else drawLine(False)    drawLine(True) if digit in [0,2,6,8] else drawLine(False)    turtle.left(90)    drawLine(True) if digit in [0,4,5,6,8,9] else drawLine(False)    drawLine(True) if digit in [0,2,3,5,6,7,8,9] else drawLine(False)    drawLine(True) if digit in [0,1,2,3,4,7,8,9] else drawLine(False)    turtle.left(180)    turtle.penup()  #为绘制后续数字确定位置    turtle.fd(20)   #为绘制后续数字确定位置def drawDate(date):     #date为日期，格式为&#39;%Y-%m=%d+&#39;    turtle.pencolor(&quot;red&quot;)    for i in date:        if i == &#39;-&#39;:            turtle.write(&#39;年&#39;,font=(&quot;Arial&quot;,22,&quot;normal&quot;))            turtle.pencolor(&quot;green&quot;)            turtle.fd(40)        elif i == &quot;=&quot;:            turtle.write(&#39;月&#39;,font=(&quot;Arial&quot;,22,&quot;normal&quot;))            turtle.pencolor(&quot;blue&quot;)            turtle.fd(40)        elif i == &quot;+&quot;:            turtle.write(&#39;日&#39;,font=(&quot;Arial&quot;,22,&quot;normal&quot;))        else:            drawDigit(eval(i))      #通过eval()函数将数字变为整数            drawPoint()def main():    turtle.setup(800,350,200,200)    turtle.penup()    turtle.fd(-300)    turtle.pensize(5)    drawDate(time.strftime(&#39;%Y-%m=%d+&#39;,time.gmtime()))#time.strftime(&#39;%Y-%m=%d+&#39;,time.gmtime())    turtle.hideturtle()    turtle.done()main()</code></pre><p>便笺</p><p class="note note-danger"> 大好き</p><pre><code class="html">&lt;i class=&quot;far fa-heart&quot;&gt;&lt;/i&gt;</code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>check</title>
+    <link href="/2020/03/27/check/"/>
+    <url>/2020/03/27/check/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/27/check/ENCORE.png" srcset="/img/loading.gif" alt="encore"></p><p><img src="/27/check/ENCORE.png" srcset="/img/loading.gif" alt="ecore"></p><p><img src="http://img0.imgtn.bdimg.com/it/u=1307955174,105946806&fm=26&gp=0.jpg" srcset="/img/loading.gif" alt="atm"></p><p><img src="/27/check/../picture/p13020648.jpg" srcset="/img/loading.gif" alt="img"></p><p><img src="/27/check/../picture/6de01736a00e4c60c6e5289233da8ae70e08ba62.jpg" srcset="/img/loading.gif" alt="tom"></p><p><img src="/27/check/../picture/ENCORE.png" srcset="/img/loading.gif" alt="ENCORE"></p><p><img src="http://img4.imgtn.bdimg.com/it/u=3483279967,1114319311&fm=26&gp=0.jpg" srcset="/img/loading.gif" alt="light"></p><p><img src="/27/check/picture/5c3f47b8622768ac2703e0e1_1024.jpg" srcset="/img/loading.gif" alt="DAGU"></p><p><img src="/27/check/E:%5CData%5Cblog%5Csource%5Cpicture%5Cf603918fa0ec08faff8b51e152ee3d6d54fbdae9.jpg" srcset="/img/loading.gif" alt="ss"></p><p><img src="http://g.hiphotos.baidu.com/zhidao/pic/item/f603918fa0ec08faff8b51e152ee3d6d54fbdae9.jpg" srcset="/img/loading.gif" alt="ss"></p><p><img src="http://q7tx4p5qa.bkt.clouddn.com/ENCORE.png" srcset="/img/loading.gif" alt="encore"></p><p><img src="/27/check/E:%5CData%5Cblog%5Csource_posts%5Ccheck%5CENCORE-1585276189841.png" srcset="/img/loading.gif" alt="e"></p><p><img src="/27/check/E:%5CData%5Cblog%5Csource_posts%5Ccheck%5Cf4150cf3d7ca7bcb42dd9cdeb9096b63f724a8bc.jpg" srcset="/img/loading.gif" alt="sq"></p><p><img src="/27/check/b0cf31094b36acafec6a4d0379d98d1000e99c6c.jpg" srcset="/img/loading.gif" alt="g"></p><p><img src="/27/check/E:%5CData%5Cblog%5Csource_posts%5Ccheck%5Cu=3743434860,1688619269&fm=26&gp=0.jpg" srcset="/img/loading.gif" alt="fenderbassflea"></p><p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585286605024&di=51a51eb5dc977b3e2f6bdf7c4306622d&imgtype=0&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D3743434860%2C1688619269%26fm%3D214%26gp%3D0.jpg" srcset="/img/loading.gif" alt="flea"></p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>上面是测试结果</p><p>今天再看博客时，发现昨天做玩的本地图片的功能今天用不了，暂时还没有解决</p><p>在上课时老师提到这个问题，我就利用上课的时间顺便测试利用网络地址的方式来完成图片插入</p><p>老师上课时提到一个可以利用Typora 可以保存网络图片到本地</p><p>我测试的结果是，1、使用网络地址可以再博客和Typora中显示，2、使用绝对地址可以在Typora中显示，不能在博客显示，这个时候设置是保存图片到本地了已经。3、勾选有先相对地址可以保存到本地但是，都不能显示。意思就是如果利用Typora保存到本地就不可以。</p><p>我在想，如果我插件可以重新用起来的话，Typora这种方法可能也就兼容了</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录6</title>
+    <link href="/2020/03/26/%E8%AE%B0%E5%BD%956/"/>
+    <url>/2020/03/26/%E8%AE%B0%E5%BD%956/</url>
+    
+    <content type="html"><![CDATA[<h1 id="图片测试成功！"><a href="#图片测试成功！" class="headerlink" title="图片测试成功！"></a>图片测试成功！</h1><p>本地图片测试成功了</p><p>通过和同学的交流找到了问题所在，</p><p>通过写插入片的操作时</p><pre><code>![图片名](图片名称.图片格式)</code></pre><p>不用在（）中填入图片路径</p><p>因为之前插入的插件</p><p><code>npm install hexo-asset-image --save</code></p><p>可以生成一个和博客同名的文件夹放在博客文件目录下，这样直接把你的图片放在文件夹下就可以了</p><p><img src="/26/%E8%AE%B0%E5%BD%956/t.png" srcset="/img/loading.gif" alt> 我是在记录5的时候安装的插件，所以从记录五之后会生成文件夹</p><p>图片功能测试成功！</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录5</title>
+    <link href="/2020/03/26/%E8%AE%B0%E5%BD%955/"/>
+    <url>/2020/03/26/%E8%AE%B0%E5%BD%955/</url>
+    
+    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><p>下面插入图片</p><p><img src="/26/%E8%AE%B0%E5%BD%955/ENCORE.png" srcset="/img/loading.gif" alt="encore"></p><p>保存测试</p><p>测试一下这种方法↓↓↓</p><p>1.首先把blog（hexo）目录下的_config.yml里的psot_asset_folder:设置为true</p><p>2.在blog（hexo）目录下执行:</p><pre><code>npm install hexo-asset-image --save复制代码</code></pre><p>3.在blog（hexo）目录下Git Bash Here，运行hexo n “博客名”来生成md博客时，会在_post目录下看到一个与博客同名的文件夹。</p><p>4.将想要上传的图片先扔到文件夹下，然后在博客中使用markdown的格式引入图片：</p><pre><code>![你想要输入的替代文字](xxxx/图片名.jpg)复制代码</code></pre><p>ps：因为博客名和文件夹名字相同，所以不需要绝对路径，只要xxxx是文件夹的名字就可以了。</p><p>5.然后，使用hexo g部署的时候，进入public\2018\04\19\index.html文件中查看相关字段，可以发现html标签内的语句是img src = “2018/04/19/xxxx/图片名.jpg”而不是img src=”xxxx.图片名.jpg”，这就成功了，当然前面步骤操作正确的话，这一步也不用检查。</p><p>作者：不吃蘑菇的马里奥<br>链接：<a href="https://juejin.im/post/5ad8b6e6518825672205be3d" target="_blank" rel="noopener">https://juejin.im/post/5ad8b6e6518825672205be3d</a><br>来源：掘金<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录4</title>
+    <link href="/2020/03/26/%E8%AE%B0%E5%BD%954/"/>
+    <url>/2020/03/26/%E8%AE%B0%E5%BD%954/</url>
+    
+    <content type="html"><![CDATA[<h1 id="关于评论模块"><a href="#关于评论模块" class="headerlink" title="关于评论模块"></a>关于评论模块</h1><p>今天我在睡觉时脑中不断想解决办法来构思，</p><p>想到一个“投机取巧”的方法：</p><p>因为在浏览Valine 的官网（<a href="https://valine.js.org）时，看见左侧目录栏，是有" target="_blank" rel="noopener">https://valine.js.org）时，看见左侧目录栏，是有</a> “在Hexo中使用”这一标签栏</p><p>里面有很多别人的博客里用了Valine的评论系统</p><p>所以我就用了这些人的BLOG主题，里面的评论的代码或者配置都已经弄好了。我只需要把自己的ID和KEY填进去就可以用了</p><p>之后考虑如果不自带，自己怎么把这个评论模块弄出来</p><p>今天继续把图片插入到博客中……</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录3</title>
+    <link href="/2020/03/26/%E8%AE%B0%E5%BD%953/"/>
+    <url>/2020/03/26/%E8%AE%B0%E5%BD%953/</url>
+    
+    <content type="html"><![CDATA[<h1 id="关于评论功能"><a href="#关于评论功能" class="headerlink" title="关于评论功能"></a>关于评论功能</h1><p>评论功能始终弄不出来，已经02:54:22</p><pre><code class="js">// Register AV objects to the globalwindow.AV = require(&#39;leancloud-storage&#39;);// Use importimport Valine from &#39;valine&#39;;// or Use requireconst Valine = require(&#39;valine&#39;);new Valine({    el:&#39;#vcomments&#39;,    // other config})</code></pre><p>这部分代码我不明白什么意思，它们应该加在什么地方不知道。</p><p>在一个主题中是否只有自带评论的功能比如 Valine 的评论功能，你通过更改 ID和KEY即可使用吗？</p><p>但是如果你的主题不自己附带评论功能，你自己该如何操作？</p><p>难道需要自己把评论模块的网页代码给写出来吗？</p><p>comments -script.pug 这个文件里的 </p><p><code>if page.content  script(src=&quot;https://www.unpkg.com/valine/dist/Valine.min.js&quot; defer)  script.    window.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {      new Valine({        el: &#39;#comments&#39;,        appId: &#39;yUy5Q7ezUjAbGxxxxxxxxx-gzGzoHsz&#39;,        appKey: &#39;DPrxxxxxxxxxxx6ncu&#39;,        notify:false,        verify:false,        avatar:&#39;mp&#39;,        placeholder: &#39;说几句&#39;,        visitor: true      })    })</code></p><p>这段代码该上自己的ID 和KEY之后还是没有什么用处。</p><p>评论具体加在了哪儿，也没找的到</p><p>或许也根本没加上</p><p>我已经弄不清楚了，也找不到更详细的教程</p><p>可能我还没接触到某些方面的知识，真的很头疼……</p><p>今天顶不住了，明天起床再说吧</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录2</title>
+    <link href="/2020/03/25/%E8%AE%B0%E5%BD%952/"/>
+    <url>/2020/03/25/%E8%AE%B0%E5%BD%952/</url>
+    
+    <content type="html"><![CDATA[<h1 id="继续记录建立博客过程"><a href="#继续记录建立博客过程" class="headerlink" title="继续记录建立博客过程"></a>继续记录建立博客过程</h1><p>现在我已经建立好了博客基础，刚刚测试上传图片功能失败了，打算之后再想想办法</p><p>已经成功部署到GitHub上了  访问地址按要求为  CCIT18081430104.github.io</p><p>接下来先我要先选择一个合适的主题来装饰我的博客，然后把图片和评论功能加上</p><p>SETP BY SETP</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>记录1</title>
+    <link href="/2020/03/25/%E8%AE%B0%E5%BD%951/"/>
+    <url>/2020/03/25/%E8%AE%B0%E5%BD%951/</url>
+    
+    <content type="html"><![CDATA[<h1 id="博客记录"><a href="#博客记录" class="headerlink" title="博客记录"></a>博客记录</h1><p>第一次建立BLOG的时候只建立的一个简单的框架，之后就再也没动过。</p><p>今天再看的时候发现并不能打开BLOG了，本地和GITHUB都已经打不开了，也不知道什么原因，</p><p>今天准备重新进行创建博客。</p><p>后续会持续记录在自己的博文中……</p><h2 id="第二次操作"><a href="#第二次操作" class="headerlink" title="第二次操作"></a>第二次操作</h2><p>第二次操作时我发现在cmd.exe中输入 hexo -V 和 node -v 的版本全都不存在，即使换到目录下也不存在，我没有找到解决办法，于是我就用最简单的解决办法，所有的东西全部重新来一遍，这样不仅能够排除错误，也能够更熟悉建立PB的这个过程。</p><p>现在我正在按顺序进行博文记录……</p><h2 id="进行插入图片测试"><a href="#进行插入图片测试" class="headerlink" title="进行插入图片测试"></a>进行插入图片测试</h2><p>我可以顺便按要求把图片插入，我采用的是 用Typora的方式用图片本地绝对路径进行图片插入，我在blog下创建了一个source文件夹下创建了一个image文件夹来存放少量图片，我用对应的Markdown语法来访问它们 “!【alt】(图片地址)”（其中【】改成英文方式[]即可）</p><p><img src="/25/%E8%AE%B0%E5%BD%951/E:%5CData%5Cblog%5Csource%5Cimage%5CENCORE.png" srcset="/img/loading.gif" alt="alt"></p><p>还有相对路径方法稍后可以试验一下</p><p>之后购买了服务器后可以尝试把图片存放CDN利用src链接进行插入图片</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
