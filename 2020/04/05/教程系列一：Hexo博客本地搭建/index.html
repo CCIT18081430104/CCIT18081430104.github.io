@@ -167,8 +167,8 @@
           <div class="post-content mx-auto" id="post">
             
             <div class="markdown-body">
-              <h1 id="教程系列一：本地搭建Hexo博客"><a href="#教程系列一：本地搭建Hexo博客" class="headerlink" title="教程系列一：本地搭建Hexo博客"></a>教程系列一：本地搭建Hexo博客</h1><ul>
-<li><h2 id="第一步：安装与配置必备软件和环境"><a href="#第一步：安装与配置必备软件和环境" class="headerlink" title="第一步：安装与配置必备软件和环境"></a>第一步：安装与配置必备软件和环境</h2><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>    (选择好路径后，一直下一部即可)<br><a href="https://www.npmjs.com/" target="_blank" rel="noopener">npm</a>     (npm跟随Node.js安装包，可以不用重复安装)<br> <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git(官方网站)</a>  或者  <a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">git淘宝镜像</a>  （两种相同。前者国外网站下载速度慢，后者国内下载速度更快)<br><br></p>
+              <pre><code></code></pre><h1 id="教程系列一：本地搭建Hexo博客"><a href="#教程系列一：本地搭建Hexo博客" class="headerlink" title="教程系列一：本地搭建Hexo博客"></a>教程系列一：本地搭建Hexo博客</h1><ul>
+<li><h2 id="第一步：安装与配置必备软件和环境"><a href="#第一步：安装与配置必备软件和环境" class="headerlink" title="第一步：安装与配置必备软件和环境"></a>第一步：安装与配置必备软件和环境</h2><p><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>    (选择好路径后，一直下一步即可)<br><a href="https://www.npmjs.com/" target="_blank" rel="noopener">npm</a>     (npm跟随Node.js安装包，可以不用重复安装)<br> <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git(官方网站)</a>  或者  <a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">git淘宝镜像</a>  （两种相同。前者国外网站下载速度慢，后者国内下载速度更快)<br><br></p>
 <p> 安装完成后 使用 WIN+R 输入cmd 打开系统 dos 界面 (如图1-1)</p>
 <div align="center"> <img src="https://i.imgur.com/1lEfeb0.png" srcset="/img/loading.gif">
 
@@ -177,22 +177,23 @@
 </div></li>
 </ul>
 <h4 id="依次输入"><a href="#依次输入" class="headerlink" title="依次输入"></a>依次输入</h4><pre><code class="dos">node -v</code></pre>
-  <div align="center"> <img src="https://i.imgur.com/Wmimk8x.png" srcset="/img/loading.gif" hight="230" width="399">
-
-  <center>【图1-2】</center>
+<div align="center"> <img src="https://i.imgur.com/Wmimk8x.png" srcset="/img/loading.gif" hight="230" width="399"></div>
+<center>【图1-2】</center>
 
 <pre><code class="dos">npm -v</code></pre>
-  <div align="center"> <img src="https://i.imgur.com/3texqIS.png" srcset="/img/loading.gif" hight="230" width="399">
-  <center>【图1-3】</center>
+<div align="center"> <img src="https://i.imgur.com/3texqIS.png" srcset="/img/loading.gif" hight="230" width="399"></div>
+<center>【图1-3】</center>
+
 
 <pre><code class="dos">git</code></pre>
-  <div align="center"> <img src="https://i.imgur.com/xLxuHmk.png" srcset="/img/loading.gif" hight="width=">
-  <center>【图1-4】</center>
+<div align="center"> <img src="https://i.imgur.com/xLxuHmk.png" srcset="/img/loading.gif" hight="width="></div>
+<center>【图1-4】</center>
 
-<p>  <font color="blue" size="10">按步骤依次输入并回车后 得到以上版本号或者代码即为</font><font color="red" size="10">安装成功！</font></p>
+
+<p>  <font color="blue" size="5">按步骤依次输入并回车后 得到以上版本号或者代码即为</font><font color="red" size="5">安装成功！</font></p>
 <h4 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h4><p>  【可选项】把npm源改为淘宝镜像源可大大加快npm下载速度（如果用此方法以后使用npm时改为cnpm）</p>
 <p>  在dos命令簿输入<br>  <br></p>
-<pre><code class="html">  npm config set registry http://registry.npm.taobao.org/</code></pre>
+<pre><code class="html">npm config set registry http://registry.npm.taobao.org/</code></pre>
   <br>
 
 <p>  完成即可</p>
@@ -204,23 +205,22 @@
 <p>  我们还可以输入</p>
 <pre><code class="dos">  hexo -v</code></pre>
 <p>  来检查是否安装成功 如【图1-5】则安装成功</p>
-  <div align="center"> <img src="https://i.imgur.com/yPSSus0.png" srcset="/img/loading.gif" hight="75%" width="75%">
-  <br>
-  <center>【图1-5】</center>
+<div align="center"> <img src="https://i.imgur.com/yPSSus0.png" srcset="/img/loading.gif" hight="75%" width="75%"></div>
+<center>【图1-5】</center>
+
 
 
 <ul>
 <li><h2 id="第二步：搭建本地博客"><a href="#第二步：搭建本地博客" class="headerlink" title="第二步：搭建本地博客"></a>第二步：搭建本地博客</h2></li>
 </ul>
-<h3 id="1-博客初始化"><a href="#1-博客初始化" class="headerlink" title="1. 博客初始化"></a>1. 博客初始化</h3><p>首先在你的硬盘内创建一个名为 blog  的 <font color="red" size="8">空</font> 文件夹</p>
+<h3 id="1-博客初始化"><a href="#1-博客初始化" class="headerlink" title="1. 博客初始化"></a>1. 博客初始化</h3><p>首先在你的硬盘内创建一个名为 blog  的 <font color="red" size="5"><strong>空</strong></font> 文件夹</p>
 <p>在刚刚的DOS命令簿内输入</p>
-<pre><code class="dos">   md blog
+<pre><code class="dos">md blog
 
-   cd blog</code></pre>
+cd blog</code></pre>
 <p>md为新建文件夹   cd为进入blog文件夹</p>
 <p>此步骤也可以在硬盘根目录下 右击新建文件夹 用此方法记住利用cd命令进入blog文件夹内</p>
-<div align="center"> <img src="https://i.imgur.com/4N7mOrO.png" srcset="/img/loading.gif" hight="230" width="399">
-<br>
+<div align="center"> <img src="https://i.imgur.com/4N7mOrO.png" srcset="/img/loading.gif" hight="230" width="399"></div>
 <center>【图1-6】</center>
 
 <h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><p>输入代码</p>
@@ -229,18 +229,16 @@
 <h3 id="2-大功告成！本地预览博客"><a href="#2-大功告成！本地预览博客" class="headerlink" title="2. 大功告成！本地预览博客"></a>2. 大功告成！本地预览博客</h3><h4 id="启动！"><a href="#启动！" class="headerlink" title="启动！"></a>启动！</h4><p>输入代码</p>
 <pre><code class="dos">hexo s</code></pre>
 <p>如【图1-7】</p>
-  <div align="center"> <img src="https://i.imgur.com/0OHqEt7.png" srcset="/img/loading.gif" hight="width=">
-  <br>
-  <center>【图1-7】</center>
+<div align="center"> <img src="https://i.imgur.com/0OHqEt7.png" srcset="/img/loading.gif" hight="width="></div>
+<center>【图1-7】</center>
 
 <p>这时，博客已经生成了！</p>
 <p>打开浏览器 输入 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  即可看到你的博客初始页</p>
-  <div align="center"> <img src="https://i.imgur.com/xTr05k2.png" srcset="/img/loading.gif" hight="width=">
-  <br>
-  <center>【图1-8】</center>
+<div align="center"> <img src="https://i.imgur.com/xTr05k2.png" srcset="/img/loading.gif" hight="width="></div>
+<center>【图1-8】</center>
 
 
-<center><font size="12" color="blue">本地博客搭建已完成，系列一结束</font></center></div></div></div></div></div></div></div>
+<center><font size="5" color="blue">本地博客搭建已完成，系列一结束</font></center>
             </div>
             <hr>
             <div>
@@ -260,8 +258,8 @@
                   <div class="post-next col-6">
                     
                     
-                      <a href="/2020/04/05/%E6%95%99%E7%A8%8B%E7%B3%BB%E5%88%97%E4%B8%80%EF%BC%9AHexo%E5%8D%9A%E5%AE%A2%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA1/">
-                        <span class="hidden-mobile">教程系列一：Hexo博客本地搭建1</span>
+                      <a href="/2020/04/02/%E7%BE%8E%E5%8C%96/">
+                        <span class="hidden-mobile">美化</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="fa fa-chevron-right"></i>
                       </a>
